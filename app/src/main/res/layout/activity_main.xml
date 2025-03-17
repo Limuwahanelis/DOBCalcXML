@@ -67,19 +67,21 @@
         android:textColor="@color/lightGrey"
         android:textStyle="bold"
         android:textSize="21sp" />
+
     <TextView
+        android:id="@+id/tvAgeInMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="1400000"
         android:textColor="@color/textBlue"
-        android:textStyle="bold"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:textStyle="bold" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Selected date"
+        android:text="Time in minutes"
         android:textColor="@color/lightGrey"
         android:textStyle="bold"
         android:textSize="21sp" />
